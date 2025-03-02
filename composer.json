@@ -1,5 +1,5 @@
 {
-	"name": "yourname/my-timber-helpers",
+	"name": "barrytickle/my-timber-helpers",
 	"description": "Custom Timber functions for WordPress.",
 	"type": "library",
 	"autoload": {
