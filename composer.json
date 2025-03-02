@@ -1,11 +1,13 @@
 {
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/yourname/my-timber-helpers.git"
+	"name": "yourname/my-timber-helpers",
+	"description": "Custom Timber functions for WordPress.",
+	"type": "library",
+	"autoload": {
+		"psr-4": {
+			"MyTimberHelpers\\": "src/"
 		}
-	],
+	},
 	"require": {
-		"yourname/my-timber-helpers": "main"
+		"timber/timber": "^1.0 || ^2.0"
 	}
 }
