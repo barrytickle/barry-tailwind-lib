@@ -27,7 +27,7 @@ class BarryTimberHelpers {
             $twig->addFunction(new TwigFunction('get_acf_block_by_post_id', 'get_acf_block_by_post_id'));
             $twig->addFunction(new TwigFunction('get_featured_image_by_post_id', 'get_featured_image_by_post_id'));
             $twig->addFunction(new TwigFunction('get_url_by_post_id', 'get_url_by_post_id'));
-
+            $twig->addFunction(new TwigFunction('new_line_text', 'new_line_text'));
             return $twig;
         });
     }
