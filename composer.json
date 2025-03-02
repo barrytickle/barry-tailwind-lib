@@ -1,0 +1,11 @@
+{
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/yourname/my-timber-helpers.git"
+		}
+	],
+	"require": {
+		"yourname/my-timber-helpers": "main"
+	}
+}
