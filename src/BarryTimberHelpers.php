@@ -2,9 +2,9 @@
 
 namespace BarryTimberHelpers;
 
+echo __DIR__;
 require_once __DIR__ . '/functions.php';
 
-use Timber\Timber;
 use Twig\TwigFunction; // Use the correct namespace for Timber 2.x
 
 class BarryTimberHelpers {
