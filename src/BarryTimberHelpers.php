@@ -7,7 +7,7 @@ require_once __DIR__ . '/functions.php';
 use Timber\Twig_Function;
 use Timber\Timber;
 
-class TimberHelpers {
+class BarryTimberHelpers {
     public static function init() {
         add_filter('timber/twig', [self::class, 'add_custom_twig_functions']);
     }
@@ -27,4 +27,4 @@ class TimberHelpers {
 }
 
 // Initialize the class when WordPress is loaded
-add_action('after_setup_theme', [TimberHelpers::class, 'init']);
+add_action('after_setup_theme', [BarryTimberHelpers::class, 'init']);
